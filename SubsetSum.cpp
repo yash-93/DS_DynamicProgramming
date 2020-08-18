@@ -54,5 +54,7 @@ int main(){
     }
     cout<< "\n";*/
 
+    cout << dp[n-1][sum];
+
     return 0;
 }
