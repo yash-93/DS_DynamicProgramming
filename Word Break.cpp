@@ -27,6 +27,14 @@ bool wordBreak(string s, vector<string>& wordDict) {
             }
         }
     }
+
+    /*for(auto i=0; i<dp.size(); i++){
+        for(auto j=0; j<dp[0].size(); j++){
+            cout << dp[i][j] << " ";
+        }
+        cout << endl;
+    }*/
+
     return res = dp[0][s.size()-1] ? true : false;
 }
 
