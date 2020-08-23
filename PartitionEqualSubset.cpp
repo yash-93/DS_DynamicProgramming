@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 bool partitionEqualSubset(vector<int> a, int sum, int n){
